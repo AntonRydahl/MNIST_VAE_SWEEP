@@ -1,0 +1,12 @@
+program: ./src/models/vae_improved.py
+method: bayes
+metric:
+  goal: minimize
+  name: validation_loss
+parameters:
+  learn_rate:
+    min: 0.00001
+    max: 0.1
+  epochs:
+    min: 5
+    max: 50
