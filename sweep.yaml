@@ -1,4 +1,4 @@
-program: ./src/models/vae_improved.py
+program: ./src/models/train_model.py
 method: bayes
 metric:
   goal: minimize
@@ -7,6 +7,13 @@ parameters:
   learn_rate:
     min: 0.00001
     max: 0.1
+  hidden_dim:
+    min: 200
+    max: 600
+  latent_dim:
+    min: 10
+    max : 40
   epochs:
     min: 5
     max: 50
+RUN: 10

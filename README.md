@@ -9,5 +9,6 @@ Thus it was chosen to separate this into two different steps. After transforming
 <p align="center">
   <img src="./reports/figures/after_improving_prof.png" width="500" title="hover text">
 </p>
+The two originally profiled files can be found in `src/legacy_models`.
 
 ## Hyperparameter Tuning using WandB

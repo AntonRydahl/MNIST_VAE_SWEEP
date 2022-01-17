@@ -29,11 +29,11 @@ requirements: test_environment
 data: 
 	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
 
-train:
+model:
 	$(PYTHON_INTERPRETER) src/models/train_model.py
 
-predict:
-	$(PYTHON_INTERPRETER) src/models/predict_model.py
+sweep:
+	wandb sweep sweep.yaml
 
 ## Delete all compiled Python files
 clean:

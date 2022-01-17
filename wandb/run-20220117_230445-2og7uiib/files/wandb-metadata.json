@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.10.60.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-01-17T22:04:49.900762",
+    "startedAt": "2022-01-17T22:04:45.385436",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/mnt/c/Users/rydah/Documents/02476/MNIST_VAE/MNIST_VAE_SWEEP/src/models/train_model.py",
+    "codePath": "src/models/train_model.py",
+    "git": {
+        "remote": "https://github.com/AntonRydahl/MNIST_VAE_SWEEP",
+        "commit": "1e3ba7aadae7780c4b8755419e1efab11cec0065"
+    },
+    "email": "rydahl2610@gmail.com",
+    "root": "/mnt/c/Users/rydah/Documents/02476/MNIST_VAE/MNIST_VAE_SWEEP",
+    "host": "LAPTOP-A97Q5U3F",
+    "username": "antonrydahl",
+    "executable": "/home/antonrydahl/anaconda3/envs/02476_project_env/bin/python"
+}
